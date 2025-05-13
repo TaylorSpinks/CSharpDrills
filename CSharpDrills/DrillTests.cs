@@ -41,4 +41,16 @@ public class DrillTests
     
         Assert.Equal(expected, result);
     }
+
+    [Fact]
+    public void FrequencyCount()
+    {
+        int[] nums = { 1, 3, 1, 3, 2, 1 };
+
+        int expectedHighestFrequency = 1;
+
+        int actualHighestFrequency = Drills.GetHighestFrequency();
+        
+        Assert.Equal(expectedHighestFrequency, actualHighestFrequency);
+    }
 }

@@ -25,6 +25,10 @@ public class Drills
 
         return result.ToArray();
     }
-    
-    
+
+
+    public static int GetHighestFrequency()
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="add git ignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="Add drill files and first solution">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpDrills/Drills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/Drills.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TaylorSpinks"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/TaylorSpinks/CSharpDrills",
+    "accountId": "cbd6a0d0-6e38-4759-b573-dfe6609e7654"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CSharpDrills/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -72,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747103367723</updated>
-      <workItem from="1747103368972" duration="1847000" />
+      <workItem from="1747103368972" duration="4159000" />
     </task>
     <task id="LOCAL-00001" summary="add git ignore">
       <option name="closed" value="true" />
@@ -82,7 +96,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747105088274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add project structure">
+      <option name="closed" value="true" />
+      <created>1747105288687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747105288687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add drill files and first solution">
+      <option name="closed" value="true" />
+      <created>1747105305931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747105305931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +134,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add git ignore" />
+    <MESSAGE value="Add project structure" />
+    <MESSAGE value="Add drill files and first solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add drill files and first solution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
