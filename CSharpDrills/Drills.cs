@@ -66,4 +66,9 @@ public class Drills
             .Select(pair => pair.Key)
             .ToArray();
     }
+
+    public static string GetFrequentNotBannedWord(string paragraph, string[] banned)
+    {
+        throw new NotImplementedException();
+    }
 }

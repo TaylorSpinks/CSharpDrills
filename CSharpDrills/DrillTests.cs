@@ -5,7 +5,7 @@ namespace CSharpDrills;
 public class DrillTests
 {
     [Fact]
-    public void TestRemoveDuplicates()
+    public void TestRemoveDuplicatesTest()
     {
         int[] nums = { 1, 3, 2, 1, 3, 5 };
 
@@ -17,7 +17,7 @@ public class DrillTests
     }
 
     [Fact]
-    public void TestRemoveDuplicatesNextOrder()
+    public void TestRemoveDuplicatesNextOrderTest()
     {
         int[] nums = { 4, 2, 2, 4, 3, 1 };
 
@@ -29,7 +29,7 @@ public class DrillTests
     }
     
     [Fact]
-    public void TestRemoveDuplicatesOrderBreak()
+    public void TestRemoveDuplicatesOrderBreakTest()
     {
         int[] nums = Enumerable.Range(0, 1000)
             .Select(i => i % 100)
@@ -43,7 +43,7 @@ public class DrillTests
     }
 
     [Fact]
-    public void FrequencyCount()
+    public void FrequencyCountTest()
     {
         int[] nums = { 1, 3, 1, 3, 2, 1 };
 
@@ -55,14 +55,27 @@ public class DrillTests
     }
 
     [Fact]
-    public void GetTopThreeFrequentElements()
+    public void GetTopThreeFrequentElementsTest()
     {
         int[] nums = { 1, 3, 1, 3, 2, 1, 2, 2, 4, 4, 4, 4 };
 
         int[] expectedTopFrequencies = { 4, 1, 2 };
 
-        int[] actualTopFrequencies = Drills.GetTopThreeMostFrequentNubmers(nums);
+        int[] actualTopFrequencies = Drills.GetTopThreeMostFrequentNumber(nums);
         
         Assert.Equal(expectedTopFrequencies,actualTopFrequencies);
+    }
+
+    [Fact]
+    public void GetFrequentNotBannedWord()
+    {
+        string paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
+        string[] banned = { "hit" };
+
+        string expectedFrequentNotBannedWord = "ball";
+
+        string actualFrequentNotBannedWord = Drills.GetFrequentNotBannedWord(paragraph, banned);
+        
+        Assert.Equal(expectedFrequentNotBannedWord,actualFrequentNotBannedWord);
     }
 }
