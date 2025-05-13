@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="complete get top three most frequent number">
+    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="Add test for next drill">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpDrills.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpDrills/Drills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/Drills.cs" afterDir="false" />
     </list>
@@ -16,6 +17,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ce85f83f-4d09-496b-95c7-2d964fc396bb.executor": "Debug",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747103367723</updated>
-      <workItem from="1747103368972" duration="8737000" />
+      <workItem from="1747103368972" duration="11116000" />
     </task>
     <task id="LOCAL-00001" summary="add git ignore">
       <option name="closed" value="true" />
@@ -144,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747112259718</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add test for next drill">
+      <option name="closed" value="true" />
+      <created>1747113103537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747113103537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +185,8 @@
     <MESSAGE value="Complete next drill with frequency" />
     <MESSAGE value="complete initial test for get top three frequent elements" />
     <MESSAGE value="complete get top three most frequent number" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete get top three most frequent number" />
+    <MESSAGE value="Add test for next drill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test for next drill" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

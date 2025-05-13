@@ -69,6 +69,26 @@ public class Drills
 
     public static string GetFrequentNotBannedWord(string paragraph, string[] banned)
     {
-        throw new NotImplementedException();
+        Dictionary<string, int> wordFrequencies = new Dictionary<string, int>();
+        string[] cleanedParagraph = paragraph
+            .ToLower()
+            .Split(' ')
+            .Where(word => !banned.Contains(word.ToLower()))
+            .Select(word => word.Trim(',', '.', '!', '?', '\'', '\"'))
+            .ToArray();
+        
+        foreach (var word in cleanedParagraph)
+        {
+            if (wordFrequencies.ContainsKey(word))
+            {
+                wordFrequencies[word]++;
+            }
+            else
+            {
+                wordFrequencies.Add(word,1);
+            }
+        }
+
+        return wordFrequencies.OrderByDescending(kvp => kvp.Value).First().Key.ToString();
     }
 }

@@ -67,12 +67,25 @@ public class DrillTests
     }
 
     [Fact]
-    public void GetFrequentNotBannedWord()
+    public void GetFrequentNotBannedWordTest()
     {
         string paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
         string[] banned = { "hit" };
 
         string expectedFrequentNotBannedWord = "ball";
+
+        string actualFrequentNotBannedWord = Drills.GetFrequentNotBannedWord(paragraph, banned);
+        
+        Assert.Equal(expectedFrequentNotBannedWord,actualFrequentNotBannedWord);
+    }
+    
+    [Fact]
+    public void GetFrequentNotBannedWordWithManyBannedTest()
+    {
+        string paragraph = "The quick brown fox jumps over the lazy dog. The dog barked back!";
+        string[] banned = { "the", "over"};
+
+        string expectedFrequentNotBannedWord = "dog";
 
         string actualFrequentNotBannedWord = Drills.GetFrequentNotBannedWord(paragraph, banned);
         

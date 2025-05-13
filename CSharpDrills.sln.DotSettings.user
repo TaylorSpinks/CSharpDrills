@@ -1,10 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce85f83f_002D4d09_002D496b_002D95c7_002D2d964fc396bb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestRemoveDuplicates" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.TestRemoveDuplicates&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.TestRemoveDuplicatesNextOrder&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.TestRemoveDuplicatesOrderBreak&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.FrequencyCount&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.GetTopThreeFrequentElements&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.GetFrequentNotBannedWordWithManyBannedTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
