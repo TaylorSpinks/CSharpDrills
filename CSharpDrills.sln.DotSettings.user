@@ -5,5 +5,6 @@
     &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.TestRemoveDuplicatesNextOrder&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.TestRemoveDuplicatesOrderBreak&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.FrequencyCount&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.GetTopThreeFrequentElements&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
