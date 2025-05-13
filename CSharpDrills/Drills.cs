@@ -26,7 +26,6 @@ public class Drills
         return result.ToArray();
     }
 
-
     public static int GetHighestFrequency(int[] nums)
     {
         Dictionary<int, int> frequencies = new Dictionary<int, int>();
@@ -44,5 +43,10 @@ public class Drills
         }
         
         return frequencies.OrderByDescending(kvp => kvp.Value).First().Key;
+    }
+
+    public static int[] GetTopThreeMostFrequentNubmers(int[] nums)
+    {
+        throw new NotImplementedException();
     }
 }

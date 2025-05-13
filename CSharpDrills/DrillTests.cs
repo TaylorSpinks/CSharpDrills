@@ -53,4 +53,16 @@ public class DrillTests
         
         Assert.Equal(expectedHighestFrequency, actualHighestFrequency);
     }
+
+    [Fact]
+    public void GetTopThreeFrequentElements()
+    {
+        int[] nums = { 1, 3, 1, 3, 2, 1, 2, 2, 4, 4, 4, 4 };
+
+        int[] expectedTopFrequencies = { 4, 1, 2 };
+
+        int[] actualTopFrequencies = Drills.GetTopThreeMostFrequentNubmers(nums);
+        
+        Assert.Equal(expectedTopFrequencies,actualTopFrequencies);
+    }
 }
