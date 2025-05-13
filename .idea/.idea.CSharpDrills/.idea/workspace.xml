@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="Add test for next drill">
+    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="Complete get frequent not banned word">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpDrills.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpDrills/Drills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/Drills.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747103367723</updated>
-      <workItem from="1747103368972" duration="11116000" />
+      <workItem from="1747103368972" duration="11456000" />
     </task>
     <task id="LOCAL-00001" summary="add git ignore">
       <option name="closed" value="true" />
@@ -157,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747113103537</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Complete get frequent not banned word">
+      <option name="closed" value="true" />
+      <created>1747115606316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747115606316</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +192,8 @@
     <MESSAGE value="complete initial test for get top three frequent elements" />
     <MESSAGE value="complete get top three most frequent number" />
     <MESSAGE value="Add test for next drill" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test for next drill" />
+    <MESSAGE value="Complete get frequent not banned word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete get frequent not banned word" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

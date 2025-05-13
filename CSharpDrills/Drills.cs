@@ -91,4 +91,33 @@ public class Drills
 
         return wordFrequencies.OrderByDescending(kvp => kvp.Value).First().Key.ToString();
     }
+    
+    // faster
+    public static string GetFrequentNotBannedWordV2(string paragraph, string[] banned)
+    {
+        HashSet<string> bannedHashSet = new HashSet<string>(banned);
+        
+        Dictionary<string, int> wordFrequencies = new Dictionary<string, int>();
+        string[] cleanedParagraph = paragraph
+            .ToLower()
+            .Split(' ')
+            .Where(word => !bannedHashSet.Contains(word.ToLower()))
+            .Select(word => word.Trim(',', '.', '!', '?', '\'', '\"'))
+            .ToArray();
+        
+        foreach (var word in cleanedParagraph)
+        {
+            if (wordFrequencies.ContainsKey(word))
+            {
+                wordFrequencies[word]++;
+            }
+            else
+            {
+                wordFrequencies.Add(word,1);
+            }
+        }
+
+        return wordFrequencies.OrderByDescending(kvp => kvp.Value).First().Key.ToString();
+    }
+    
 }
