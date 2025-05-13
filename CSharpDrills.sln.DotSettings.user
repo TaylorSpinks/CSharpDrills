@@ -2,5 +2,6 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce85f83f_002D4d09_002D496b_002D95c7_002D2d964fc396bb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestRemoveDuplicates" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.GetFrequentNotBannedWordWithManyBannedTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DuplicateCheckerStreamTests.TestStreamHasDuplicateInWindow&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
