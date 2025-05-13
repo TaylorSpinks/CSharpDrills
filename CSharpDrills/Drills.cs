@@ -27,8 +27,22 @@ public class Drills
     }
 
 
-    public static int GetHighestFrequency()
+    public static int GetHighestFrequency(int[] nums)
     {
-        throw new NotImplementedException();
+        Dictionary<int, int> frequencies = new Dictionary<int, int>();
+
+        foreach (int num in nums)
+        {
+            if (frequencies.ContainsKey(num))
+            {
+                frequencies[num]++;
+            }
+            else
+            {
+                frequencies.Add(num, 1);
+            }
+        }
+        
+        return frequencies.OrderByDescending(kvp => kvp.Value).First().Key;
     }
 }

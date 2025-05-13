@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="Add drill files and first solution">
+    <list default="true" id="c12dd053-6840-4eec-8269-5bae68077bd6" name="Changes" comment="Add tests for new drill, get highest frequency">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDrills/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpDrills.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/DrillTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSharpDrills/Drills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpDrills/Drills.cs" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.CSharpInteractiveConfiguration",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747103367723</updated>
-      <workItem from="1747103368972" duration="4159000" />
+      <workItem from="1747103368972" duration="6036000" />
     </task>
     <task id="LOCAL-00001" summary="add git ignore">
       <option name="closed" value="true" />
@@ -112,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747105305931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add tests for new drill, get highest frequency">
+      <option name="closed" value="true" />
+      <created>1747108528718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747108528718</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +145,27 @@
     <MESSAGE value="add git ignore" />
     <MESSAGE value="Add project structure" />
     <MESSAGE value="Add drill files and first solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add drill files and first solution" />
+    <MESSAGE value="Add tests for new drill, get highest frequency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests for new drill, get highest frequency" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CSharpDrills/Drills.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/CSharpDrills/Drills.cs" containingFunctionPresentation="Method 'GetHighestFrequency'">
+            <startOffsets>
+              <option value="993" />
+            </startOffsets>
+            <endOffsets>
+              <option value="994" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -49,7 +49,7 @@ public class DrillTests
 
         int expectedHighestFrequency = 1;
 
-        int actualHighestFrequency = Drills.GetHighestFrequency();
+        int actualHighestFrequency = Drills.GetHighestFrequency(nums);
         
         Assert.Equal(expectedHighestFrequency, actualHighestFrequency);
     }
