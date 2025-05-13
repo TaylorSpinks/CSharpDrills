@@ -3,5 +3,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DrillTests.GetFrequentNotBannedWordWithManyBannedTest&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.DuplicateCheckerStreamTests.TestStreamHasDuplicateInWindow&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::325658C2-A4EF-4260-85E6-24CB182D7AF0::net9.0::CSharpDrills.StackDrillTests.TestCheckExpressionBrackets&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
